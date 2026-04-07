@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio of Leo Wirasanto Laia — iOS Engineer, Videographer, Photographer." />
+    <title>Leo Wirasanto Laia</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.svg" />
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+
+    <!-- ── Nav ─────────────────────────────────────────── -->
+    <nav class="nav">
+      <span class="nav__logo">LWL</span>
+      <ul class="nav__links">
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- ── Hero ────────────────────────────────────────── -->
+    <section class="hero" id="hero">
+      <div class="hero__content">
+        <p class="hero__eyebrow">Based in Bali</p>
+        <h1 class="hero__name">Leo Wirasanto Laia</h1>
+        <div class="hero__roles">
+          <span class="role-tag">iOS Engineer</span>
+          <span class="role-tag">Videographer</span>
+          <span class="role-tag">Photographer</span>
+        </div>
+        <p class="hero__tagline">Building apps, telling stories, capturing moments.</p>
+      </div>
+      <div class="hero__scroll-indicator" aria-hidden="true">
+        <span></span>
+      </div>
+    </section>
+
+    <!-- ── What I Do ────────────────────────────────────── -->
+    <section class="what-i-do section" id="about">
+      <div class="container">
+        <h2 class="section__label">What I Do</h2>
+        <div class="what-i-do__grid">
+
+          <div class="discipline js-reveal">
+            <span class="discipline__num">01</span>
+            <h3 class="discipline__title">iOS Engineer</h3>
+            <p class="discipline__desc">Crafting native iOS experiences with Swift. From architecture to polish, focused on performance and usability.</p>
+          </div>
+
+          <div class="discipline js-reveal">
+            <span class="discipline__num">02</span>
+            <h3 class="discipline__title">Videographer</h3>
+            <p class="discipline__desc">Directing and shooting short films, brand videos, and documentaries. Visual storytelling through motion.</p>
+          </div>
+
+          <div class="discipline js-reveal">
+            <span class="discipline__num">03</span>
+            <h3 class="discipline__title">Photographer</h3>
+            <p class="discipline__desc">Street, portrait, and travel photography. Hunting for the decisive moment in everyday life.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Selected Works ───────────────────────────────── -->
+    <section class="works section" id="work">
+      <div class="container">
+        <h2 class="section__label">Selected Works</h2>
+        <div class="works__grid">
+
+          <article class="work-card js-reveal">
+            <div class="work-card__thumb">
+              <img src="/assets/images/placeholder.webp" alt="Project placeholder" loading="lazy" />
+            </div>
+            <div class="work-card__info">
+              <span class="work-card__tag">iOS</span>
+              <h3 class="work-card__title">Project Title</h3>
+              <span class="work-card__year">2024</span>
+            </div>
+          </article>
+
+          <article class="work-card js-reveal">
+            <div class="work-card__thumb">
+              <img src="/assets/images/placeholder.webp" alt="Project placeholder" loading="lazy" />
+            </div>
+            <div class="work-card__info">
+              <span class="work-card__tag">Film</span>
+              <h3 class="work-card__title">Short Film Title</h3>
+              <span class="work-card__year">2024</span>
+            </div>
+          </article>
+
+          <article class="work-card js-reveal">
+            <div class="work-card__thumb">
+              <img src="/assets/images/placeholder.webp" alt="Project placeholder" loading="lazy" />
+            </div>
+            <div class="work-card__info">
+              <span class="work-card__tag">Photo</span>
+              <h3 class="work-card__title">Photo Series Title</h3>
+              <span class="work-card__year">2023</span>
+            </div>
+          </article>
+
+          <article class="work-card js-reveal">
+            <div class="work-card__thumb">
+              <img src="/assets/images/placeholder.webp" alt="Project placeholder" loading="lazy" />
+            </div>
+            <div class="work-card__info">
+              <span class="work-card__tag">iOS</span>
+              <h3 class="work-card__title">Another App</h3>
+              <span class="work-card__year">2023</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Contact ──────────────────────────────────────── -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <h2 class="section__label">Contact</h2>
+        <p class="contact__cta js-reveal">Let's work together.</p>
+        <div class="contact__links js-reveal">
+          <a href="mailto:leowirasanto@gmail.com" class="contact__link">leowirasanto@gmail.com</a>
+          <a href="https://github.com/leowirasanto2" target="_blank" rel="noopener" class="contact__link">GitHub</a>
+          <a href="https://instagram.com/leowirasanto" target="_blank" rel="noopener" class="contact__link">Instagram</a>
+          <a href="https://tiktok.com/@leowirasanto" target="_blank" rel="noopener" class="contact__link">TikTok</a>
+          <a href="https://youtube.com/@leowirasanto" target="_blank" rel="noopener" class="contact__link">YouTube</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Footer ───────────────────────────────────────── -->
+    <footer class="footer">
+      <span>© <span id="year"></span> Leo Wirasanto Laia</span>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

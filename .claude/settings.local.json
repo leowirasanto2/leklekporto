@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -L \"https://img.youtube.com/vi/jKo9D6E-c8Q/maxresdefault.jpg\" -o \"e:/Projects/Programming/Web/leklekportfolio/public/assets/images/mrt-jakarta.jpeg\")"
+    ]
+  }
+}
